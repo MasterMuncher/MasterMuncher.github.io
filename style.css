@@ -18,6 +18,9 @@
 .white-text {
     color:whitesmoke;
 }
-.background {
-    color:black;
+ body {
+    background-color:black;
+}
+div.a {
+    text-align: center;
 }
