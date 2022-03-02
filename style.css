@@ -38,4 +38,16 @@ div.c {
 img {
     float:left;
     Margin-right:25px;
+    Margin-bottom:25px;
+}
+a {
+    float:left;
+    Margin-right:70px;
+}
+    p {
+    font-size:1.1rem;
+}
+
+.clear {
+    clear: both;
 }
