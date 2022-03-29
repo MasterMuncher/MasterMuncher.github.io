@@ -10,11 +10,30 @@
     width:50%;
 }
 #title {
-    text-align:center;
+    text-align:left;
 }
 div {
     border:10px solid red;
 }
 #main {
     background-color:#02735E;
+}
+#tribute-info {
+    font-size:19px;
+    display:block;
+    flex-direction:column;
+    -ms-flex-order:1;
+}
+    #img-caption {
+    font-size:20px;
+    text-align:center;
+}
+#img-div {
+    float:left;
+    max-width:100%;
+}
+#tribute-link {
+    display:block;
+    text-align:center;
+    -ms-flex-order:2;
 }
