@@ -12,11 +12,9 @@
 #title {
     text-align:left;
 }
-div {
-    border:10px solid red;
-}
 #main {
     background-color:#02735E;
+    border:15px solid red;
 }
 #tribute-info {
     font-size:19px;
@@ -24,7 +22,7 @@ div {
     flex-direction:column;
     -ms-flex-order:1;
 }
-    #img-caption {
+#img-caption {
     font-size:20px;
     text-align:center;
 }
@@ -36,4 +34,8 @@ div {
     display:block;
     text-align:center;
     -ms-flex-order:2;
+}
+#quote-caption {
+    font-style:italic;
+
 }
