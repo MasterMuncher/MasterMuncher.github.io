@@ -1,11 +1,32 @@
-#Name-label {
-    padding:20px 20px 10px 10px;
-    background-color:blue;
-    display:block;
-}
+
 h1 {
     text-align:Center;
+    color:orange;
 }
-h2 {
+p {
     text-align:center;
+    color:orange;
+    font-size:20px;
+}
+:root {
+    background-color:black;
+}
+#survey-form {
+    color:orange;
+}
+#name,#name-label {
+    display:flex;
+    flex: 1 50%;
+    flex-direction:column;
+}
+#email,#email-label {
+    display:flex;
+    flex: 2 50%;
+    flex-direction:column;
+}
+#number,#number-label {
+    display:flex;
+    flex: 3 50%;
+    flex-direction:column;
+    color:orange;
 }
