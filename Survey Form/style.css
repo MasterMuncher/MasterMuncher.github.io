@@ -30,3 +30,9 @@ p {
     flex-direction:column;
     color:orange;
 }
+#dropdown-menu {
+    display:flex;
+    flex: 4 50%;
+    flex-direction:column;
+    color:orange;
+}
