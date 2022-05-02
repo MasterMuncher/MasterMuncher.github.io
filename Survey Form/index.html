@@ -22,7 +22,7 @@
 <br>
 <br>
 <label id="number-label">What is your most hated number?</label>
-<input id="number" required placeholder="0 to infinite" type="number">
+<input id="number" required placeholder="0 to infinite" type="number" min="0" max="100000">
 <br>
 <br>
 <label id="dropdown-menu">Select your favorite food.</label>
@@ -34,18 +34,29 @@
 </select>
 <br>
 <br>
-<input type="checkbox">
-<label id="Opera GX"name="Opera GX" value="Opera GX" >Opera GX</label>
-<input type="checkbox">
-<label id="Mircosoft Edge"name="Mircosoft Edge" value="Mircosoft Edge" >Mircosoft Edge</label>
-<input type="checkbox">
-<label id="Google Chrome"  name="Google Chrome"value="Google Chrome">Google Chrome</label>
+<input type="checkbox" id="Opera GX"name="Opera GX" value="Opera GX">
+<label for="Opera GX">Opera GX</label>
+<input type="checkbox" id="Mircosoft Edge"name="Mircosoft Edge" value="Mircosoft Edge">
+<label for="Mircosoft Edge">Mircosoft Edge</label>
+<input type="checkbox" id="Google Chrome"  name="Google Chrome"value="Google Chrome">
+<label for="Google Chrome">Google Chrome</label>
 <br>
 <br>
 <input type="submit" value="submit" id="submit">
 <br>
 <br>
-
+<h2>What is your favorite game?</h2>
+<h3>Pick Two.</h3>
+<label>
+<input type="radio" id="radio-button-1" name="Alpha-radio" value="alpha">
+Genshin Impact</label>
+<label>
+<input type="radio" id="radio-button-2" name="Bravo-radio" value="Bravo">
+Rocket League</label>
+<input type="radio" id="radio-button-3" name="Charlie-radio" value="Charlie">
+<label for="radio-button-3">Rainbow Six Siege</label>
+<input type="radio" id="radio-button-4" name="Delta-radio" value="Delta">
+<label for="radio-button-4">Red Dead Redepemtion 2</label>
 </form>
 </body>
 
