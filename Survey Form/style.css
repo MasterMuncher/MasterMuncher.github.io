@@ -10,6 +10,10 @@ p {
 }
 :root {
     Background-image:url("Evil.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    filter:saturate(60%)
 }
 #survey-form {
     color:orange;
@@ -18,23 +22,40 @@ p {
     display:flex;
     flex: 1 50%;
     flex-direction:column;
+    width:200px;
+    padding:15px;
+    box-sizing:border-box;
+    background-color:transparent;
+
 }
 #email,#email-label {
     display:flex;
     flex: 2 50%;
     flex-direction:column;
+    width:200px;
+    padding:15px;
+    box-sizing:border-box;
+    background-color:transparent;
 }
 #number,#number-label {
     display:flex;
     flex: 3 50%;
     flex-direction:column;
     color:orange;
+    width:200px;
+    padding:15px;
+    box-sizing:border-box;
+    background-color:transparent;
 }
 #dropdown-menu {
     display:flex;
     flex: 4 50%;
     flex-direction:column;
     color:orange;
+    width:200px;
+    padding:15px;
+    box-sizing:border-box;
+    background-color:transparent;
 }
 h2 {
     font-size:20px;
@@ -44,4 +65,8 @@ h3 {
 }
 h4 {
     font-size:20px;
+}
+::placeholder {
+    color:white;
+    opacity:1;
 }
