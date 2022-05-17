@@ -8,9 +8,3 @@
 #video {
     position: fixed;
 }
-:root {
-    background-image: url(DK.jpg);
-    position:fixed;
-    width: 2000vh;
-    height: 1000vh;
-}
